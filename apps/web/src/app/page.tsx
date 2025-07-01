@@ -31,17 +31,11 @@ export default function Home() {
     <div className={darkMode ? 'dark' : ''}>
       <main className="flex flex-col h-screen bg-white dark:bg-zinc-900 text-black dark:text-white transition-colors duration-300">
         {/* Header */}
-        <header className="flex justify-between items-center px-6 py-4 shadow dark:shadow-lg">
+       <header className="flex justify-center items-center px-6 py-4 shadow dark:shadow-lg">
           <h1 className="text-2xl font-bold flex items-center gap-2">
-            <span role="img" aria-label="house">🏠</span> Real Estate Wiz
+            <span role="img" aria-label="house">🏠</span> Real Estate Investment Wiz
           </h1>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="text-sm border rounded px-3 py-1 hover:bg-zinc-100 dark:hover:bg-zinc-700 transition"
-          >
-            {darkMode ? '🌞 Light Mode' : '🌙 Dark Mode'}
-          </button>
-        </header>
+      </header>
 
         {/* Chat area */}
         <div className="flex-1 overflow-y-auto px-6 py-4 space-y-3">
