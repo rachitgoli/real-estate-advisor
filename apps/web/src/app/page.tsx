@@ -33,7 +33,7 @@ export default function Home() {
         {/* Header */}
        <header className="flex justify-center items-center px-6 py-4 shadow dark:shadow-lg">
           <h1 className="text-2xl font-bold flex items-center gap-2">
-            <span role="img" aria-label="house">🏠</span> Real Estate Investment Wiz
+            <span role="img" aria-label="house"></span> Real Estate Investment Wiz
           </h1>
       </header>
 
